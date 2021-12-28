@@ -2,9 +2,11 @@
 	import Navbar from '../components/shared/Navbar.svelte';
 </script>
 
-<div>
+<div class="bg-gray-100 h-screen">
 	<Navbar />
-	<slot />
+	<div class="container">
+		<slot />
+	</div>
 </div>
 
 <style global>
