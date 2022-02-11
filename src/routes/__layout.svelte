@@ -5,6 +5,7 @@
 <div>
 	<Navbar />
 	<slot />
+	Test
 </div>
 
 <style global>
